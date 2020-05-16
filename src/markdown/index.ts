@@ -36,7 +36,8 @@ const mdInit = (options: TMarkdownItOptions) => {
     .use(require("markdown-it-deflist"))
     .use(require("markdown-it-mark"))
     .use(require("markdown-it-emoji"))
-    .use(require("markdown-it-ins"));
+    .use(require("markdown-it-ins"))
+    .use(require("markdown-it-abbr"));
 };
 
 
